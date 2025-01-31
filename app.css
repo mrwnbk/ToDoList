@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding-bottom: 40px;
+    background-color: #0d323d !important;
+}
+
+h1 {
+    font-size: 60px;
+    color: #678283;
+}
+
+input {
+    width: 50%;
+    height: 40px;
+}
+
+.btnAdd {
+    background-color: #34a472;
+    width: 10%;
+    height: 40px;
+}
+
+.btnAll {
+    width: 17%;
+    height: 40px;
+}
+
+/* --------------------------------------- */
+
+.parentTache {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tache {
+    width: 60%;
+    border-radius: 20px;
+    margin-top: 50px;
+    color: white;
+    background-color: #0f80d3;
+    padding: 10px 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divBtnTache {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btnFini {
+    width: 100px;
+    height: 25px;
+    border: none;
+    color: white;
+    background-color: #149dff;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.btnModifier {
+    width: 100px;
+    height: 25px;
+    border: none;
+    color: white;
+    background-color: #149dff;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.btnSupprimer {
+    width: 100px;
+    height: 25px;
+    border: none;
+    color: white;
+    background-color: #149dff;
+    border-radius: 10px;
+    font-size: 13px;
+}
